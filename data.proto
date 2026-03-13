@@ -1,0 +1,6 @@
+syntax = "proto2";
+
+//simple message that will hold a boolean value that determines if we want the LED to toggle on or off
+message BlinkData {
+    optional bool toggle = 1;
+}
